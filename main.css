@@ -12,6 +12,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .attribution {
   font-size: 11px;
@@ -19,4 +22,30 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+  display: flex;
+
+  flex-direction: row;
+  margin: 2%;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  width: 50%;
+}
+
+.banner {
+  margin-left: 20%;
+  width: 32rem;
+}
+li {
+  list-style: url("assets/images/icon-list.svg");
+}
+
+input {
+  width: 100%;
 }
